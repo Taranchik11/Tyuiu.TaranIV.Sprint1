@@ -10,4 +10,3 @@ namespace Tyuiu.TaranIV.Sprint1.Task1.V0.Lib
         }
     }
 }
-
