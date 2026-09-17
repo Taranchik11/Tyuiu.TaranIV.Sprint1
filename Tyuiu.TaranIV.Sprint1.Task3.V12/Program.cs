@@ -31,4 +31,3 @@ Console.WriteLine("*************************************************************
 
 Console.WriteLine("Площадь прямоугольного треугольника равна:" + ds.TriangleArea(x,y));
 Console.ReadKey();
-
