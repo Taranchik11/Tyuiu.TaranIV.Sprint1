@@ -11,7 +11,7 @@ namespace Tyuiu.TaranIV.Sprint1.Task2.V21.Test
             DataService ds = new DataService();
             int x = 3;
             int y = 7;
-            var res = ds.CalculateRectangleSquare(x,y);
+            var res = ds.CalculateRectangleSquare(x, y);
             Assert.AreEqual(21, res);
         }
     }

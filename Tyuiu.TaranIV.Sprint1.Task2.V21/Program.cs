@@ -30,5 +30,5 @@ Console.WriteLine("*************************************************************
 Console.WriteLine("* РЕЗУЛЬТАТ:                                                              *");
 Console.WriteLine("***************************************************************************");
 
-Console.WriteLine("Площадь прямоугольника равна:" + ds.CalculateRectangleSquare(x,y));
+Console.WriteLine("Площадь прямоугольника равна:" + ds.CalculateRectangleSquare(x, y));
 
