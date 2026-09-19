@@ -1,4 +1,4 @@
-﻿using Tyuiu.TaranIV.Sprint1.Task1.V0.Lib;
+﻿using Tyuiu.TaranIV.Sprint1.Task1.V17.Lib;
 
 double x;
 double y;
@@ -21,7 +21,7 @@ Console.WriteLine("* ИСХОДНЫЕ ДАННЫЕ:                             
 Console.WriteLine("***************************************************************************");
 
 Console.WriteLine("введите значение x:");
-x= Convert.ToDouble(Console.ReadLine());
+x = Convert.ToDouble(Console.ReadLine());
 
 Console.WriteLine("введите значение y:");
 y = Convert.ToDouble(Console.ReadLine());
@@ -30,7 +30,7 @@ Console.WriteLine("*************************************************************
 Console.WriteLine("* РЕЗУЛЬТАТ:                                                              *");
 Console.WriteLine("***************************************************************************");
 
-Console.WriteLine(ds.Calculate(x,y));
+Console.WriteLine(ds.Calculate(x, y));
 
 Console.ReadLine();
 
