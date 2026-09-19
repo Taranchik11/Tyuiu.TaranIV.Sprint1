@@ -8,7 +8,7 @@ Console.WriteLine("*************************************************************
 Console.WriteLine("* Спринт #1                                                               *");
 Console.WriteLine("* Тема: Преобразование типов и класс Convert                              *");
 Console.WriteLine("* Задание #1.5                                                            *");
-Console.WriteLine("* Вариант #05                                                             *");
+Console.WriteLine("* Вариант #5                                                             *");
 Console.WriteLine("* Выполнил: Таран Иван Владимирович | ПКТб-26-1                           *");
 Console.WriteLine("***************************************************************************");
 Console.WriteLine("* УСЛОВИЕ:                                                                *");
