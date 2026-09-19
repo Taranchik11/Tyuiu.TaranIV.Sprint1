@@ -29,6 +29,6 @@ Console.WriteLine("*************************************************************
 Console.WriteLine("* РЕЗУЛЬТАТ:                                                              *");
 Console.WriteLine("***************************************************************************");
 
-Console.WriteLine("Площадь прямоугольного треугольника равна:" + ds.TriangleArea(x,y));
+Console.WriteLine("Площадь прямоугольного треугольника равна:" + ds.TriangleArea(x, y));
 Console.ReadKey();
 

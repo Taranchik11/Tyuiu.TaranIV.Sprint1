@@ -8,7 +8,7 @@ namespace Tyuiu.TaranIV.Sprint1.Task3.V12.Lib
         public double TriangleArea(double lengthCathetus1, double lengthCathetus2)
         {
             double result = (lengthCathetus1 * lengthCathetus2) / 2;
-            
+
             return Math.Round(result, 3);
         }
     }
