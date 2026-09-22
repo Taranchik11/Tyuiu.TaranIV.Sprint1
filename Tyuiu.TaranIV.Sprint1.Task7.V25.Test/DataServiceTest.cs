@@ -10,10 +10,10 @@ namespace Tyuiu.TaranIV.Sprint1.Task7.V25.Test
         {
             DataService ds = new DataService();
             double x, y;
-            x = 6;
+            x = 2;
             y = 4;
-            var res = Math.Round(ds.Calculate(x, y), 3);
-            double wait = -0.766;
+            var res = ds.Calculate(x,y);
+            var wait = 6.733;
             Assert.AreEqual(wait, res);
 
         }

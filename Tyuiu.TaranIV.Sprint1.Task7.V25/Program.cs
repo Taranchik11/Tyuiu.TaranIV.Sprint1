@@ -8,7 +8,7 @@
 using Tyuiu.TaranIV.Sprint1.Task7.V25.Lib;
 
 DataService ds = new DataService();
-double x, y, e, result;
+double x, y;
 
 Console.Title = "Спринт #1 | Выполнил: Таран И. В. | ПКТб-26-1";
 Console.WriteLine("***************************************************************************");
@@ -33,12 +33,8 @@ x = Convert.ToDouble(Console.ReadLine());
 Console.WriteLine("Введите значение y: ");
 y = Convert.ToDouble(Console.ReadLine());
 
-Console.WriteLine("Введите значение e: ");
-e = Convert.ToDouble(Console.ReadLine());
-
 Console.WriteLine("***************************************************************************");
 Console.WriteLine("* РЕЗУЛЬТАТ:                                                              *");
 Console.WriteLine("***************************************************************************");
 
-result = Math.Pow(e, x) - ds.Calculate(x, y);
-Console.WriteLine("Результат математического выражения: " + Math.Round(result, 3));
+Console.WriteLine("Результат математического выражения: " + ds.Calculate(x,y));
